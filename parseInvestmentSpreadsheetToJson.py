@@ -23,7 +23,7 @@ def main():
 
     headers = ["nome", "posicaoMercado", "alocacao", "valorAplicado", "taxaMercado", "dataAplicacao", "dataVencimento"]
 
-    investiment_types = [[9, 18, "preFixado"], [21, 30, "posFixado"], [33, 33, "inflacao"]]
+    investiment_types = [[9, 19, "preFixado"], [22, 31, "posFixado"], [34, 34, "inflacao"]]
 
     investments = []
     for investiment_type in investiment_types:

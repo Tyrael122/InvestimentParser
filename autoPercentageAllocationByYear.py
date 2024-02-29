@@ -1,5 +1,5 @@
 import parseInvestmentSpreadsheetToJson
-import percentageAlocationByYear
+import investimentsStats
 
 parseInvestmentSpreadsheetToJson.main()
-percentageAlocationByYear.main()
+investimentsStats.main()
