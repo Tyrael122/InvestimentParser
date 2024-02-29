@@ -29,6 +29,7 @@ def main():
         percentage = percentage_allocation[year]
         print(f"Year {year}: {percentage:.2f}% with R$ {yearly_allocation[year]:.2f}")
 
+    print(f"Total amount: R$ {total_allocation:.2f}")
 
     with open('output/allocation_results_percentage.csv', 'w', newline='') as csvfile:
         fieldnames = ['Year', 'Percentage', 'Allocation']
