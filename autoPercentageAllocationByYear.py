@@ -1,0 +1,5 @@
+import parseInvestmentSpreadsheetToJson
+import percentageAlocationByYear
+
+parseInvestmentSpreadsheetToJson.main()
+percentageAlocationByYear.main()
